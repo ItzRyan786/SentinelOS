@@ -23,19 +23,21 @@
 
 ## 📸 Dashboard & Demos
 
-*(Replace the placeholder URLs below with links to your actual screenshots or GIF demonstrations once uploaded to GitHub)*
-
 ### Real-Time SOC Dashboard
-![SOC Dashboard Demo](https://via.placeholder.com/800x400.png?text=Upload+Your+Dashboard+Screenshot+Here)
+![SOC Dashboard Demo](./docs/images/dashboard.png)
 *Monitor live network traffic, threat alerts, and system health in a unified pane of glass.*
 
 ### Incident Containment in Action
-![Containment Demo](https://via.placeholder.com/800x400.png?text=Upload+Your+Containment+GIF+Here)
+![Containment Demo](./docs/images/containment.png)
 *Watch the automated containment engine isolate a compromised node in real-time.*
 
-### UBA & Threat Intelligence
-![UBA Demo](https://via.placeholder.com/800x400.png?text=Upload+Your+UBA+Screenshot+Here)
+### MITRE ATT&CK Mapping & Threat Intelligence
+![UBA Demo](./docs/images/uba.png)
 *Detailed behavioral analytics and MITRE ATT&CK threat mapping.*
+
+### Cyber Range Scenario Simulation
+![Cyber Range Demo](./docs/images/cyber_range.png)
+*Interactive training environment with simulated cyber security attack scenarios.*
 
 ---
 

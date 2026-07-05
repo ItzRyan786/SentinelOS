@@ -46,7 +46,10 @@ def send_log(log_data):
     req = urllib.request.Request(
         SOC_ENDPOINT,
         data=json.dumps(log_data).encode("utf-8"),
-        headers={"Content-Type": "application/json"}
+        headers={
+            "Content-Type": "application/json",
+            "X-API-Key": "sentinel-ingest-key"
+        }
     )
     try:
         with urllib.request.urlopen(req, timeout=3) as response:
